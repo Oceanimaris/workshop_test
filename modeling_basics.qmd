@@ -1,5 +1,5 @@
 ---
-title: "Ecological Modeling Basics"
+title: "Ecological Modeling Basics funciono?"
 page-layout: full
 title-block-banner: false
 comments: false
@@ -276,6 +276,12 @@ Coupled models are valuable because they allow researchers to:
 -   [Learn to Code →](tools/coding/coding_basics.qmd)\
 -   [Version Control →](tools/coding/github/version_control.qmd)\
 -   [Co-Development →](tools/workshop/index.qmd)
+
+:::::
+
+::::::
+
+:::::::
 
 :::::
 
