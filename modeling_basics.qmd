@@ -1,5 +1,5 @@
 ---
-title: "Ecological Modeling Basics funciono?"
+title: "Ecological Modeling Basics -si"
 page-layout: full
 title-block-banner: false
 comments: false
