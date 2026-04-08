@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - files/*
+
+from: markdown+raw_html
+
+website:
+  title: "Katherine Daza"
+  navbar:
+    background: primary
+    foreground: light
+    pinned: true
+    left:
+      - href: modeling_basics.qmd
+        text: Modeling Basics    
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: projects.qmd
+        text: Models
+      - href: cv.qmd
+        text: CV
+      - text: News
+        menu:
+          - text: "2026"
+            href: news/2026.qmd
+    right:
+      - icon: github
+        href: https://github.com/Oceanimaris
+      - icon: envelope
+        href: mailto:katherine.daza@maine.edu
+      - icon: linkedin
+        href: https://www.linkedin.com/in/katherine-daza-08512131a/
+  page-footer:
+    left: "© 2026 Katherine Daza"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme: [flatly, custom.scss]
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    page-layout: article
+
+execute:
+  freeze: auto
